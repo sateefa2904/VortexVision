@@ -6,4 +6,5 @@ port = 5005
 client = SimpleUDPClient(ip, port)
 
 def send_gesture(gesture_name):
+    print(f"Sending gesture: {gesture_name}")
     client.send_message("/gesture", gesture_name)
