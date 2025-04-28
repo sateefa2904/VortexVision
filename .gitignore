@@ -1,1 +1,19 @@
-venv39/
+# Python virtual environments
+venv/
+**/venv/
+*.py[cod]
+__pycache__/
+
+# macOS Finder files
+.DS_Store
+
+# TouchDesigner tox packages or builds
+*.tox
+*.toe
+*.cache/
+
+# Media / binary blobs
+media/
+*.zip
+*.mov
+movieout.*
