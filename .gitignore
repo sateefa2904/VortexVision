@@ -9,7 +9,6 @@ __pycache__/
 
 # TouchDesigner tox packages or builds
 *.tox
-*.toe
 *.cache/
 
 # Media / binary blobs
